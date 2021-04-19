@@ -1,0 +1,129 @@
+input[type="text"] {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #c6c6c6;
+  outline: none;
+  margin: 14px;
+}
+.buttonStyle {
+  width: 75%;
+  margin: 10px;
+  margin-left: 40px;
+  background-color: #e9af0f; /* Green */
+  border: none;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  outline: none;
+}
+.gridPage {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+}
+
+.formMainStyle {
+  height: 80%;    
+  width: 50%;
+  margin-top: 70px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 16px #00000029;
+  opacity: 1;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+form {
+  margin-left: 2%;
+  margin-right: 10%;
+}
+
+h1 {
+  width: 500px;
+}
+h3 {
+  text-align: center;
+  margin-top: 10%;
+}
+/* 
+.contensStyle{  
+max-width: 532px;
+} */
+h4 {
+  text-align: center;
+  font-size: 14px;
+}
+
+.contentsStyle {
+  padding: 50px;
+  margin-left: 90px;
+}
+
+.Square1 {
+  position: absolute;
+  z-index: -1;
+  top: 180px;
+    left: 31px;
+    width: 66px;
+    height: 66px;
+  transform: matrix(0.5, -0.87, 0.87, 0.5, 0, 0);
+  border: 2px solid #7b3ff2;
+  opacity: 1;
+}
+
+.Square2 {
+  position: absolute;
+  z-index: -1;
+  top: 49px;
+    left: 691px;
+    width: 40px;
+    height: 40px;
+  transform: matrix(0.68, -0.73, 0.73, 0.68, 0, 0);
+  background: transparent;
+  border: 2px solid #ed6982;
+  opacity: 1;
+}
+
+.Square3 {
+  position: absolute;
+  z-index: -1;
+  top: 397px;
+    left: 650px;
+    width: 20px;
+    height: 20px;
+  transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+  border: 2px solid #ffa42e;
+  opacity: 1;
+}
+
+.Cross {
+  position: absolute;
+  z-index: -1;
+  top: 116px;
+    left: 1233px;
+    width: 48px;
+    height: 48px;
+  opacity: 1;
+}
+
+.circle {
+  position: absolute;
+  z-index: -1;
+  top: 285px;
+    left: 1130px;
+    width: 70px;
+    height: 70px;
+  border: 2px solid #7b3ff2;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.alert{
+  color:red;
+  font-size: 14px;
+  padding-left: 6%;
+}
